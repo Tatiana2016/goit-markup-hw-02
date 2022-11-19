@@ -1,5 +1,15 @@
 :root{
     --header-background: #FFFFFF;
-    --main-background: #F5F5F5;
+    --body-background: #F5F5F5;
     --footer-background: #2F303A;
+    --list-text-color:#2196F3;
     }
+   .header {
+    background:var(--header-background);
+   }
+ .body{
+    background: var(--body-background);
+ }
+.footer{
+    background:var(--footer-background)
+}
