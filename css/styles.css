@@ -1,3 +1,5 @@
-.body {
-    font-family:roboto;
-}
+:root{
+    --header-background: #FFFFFF;
+    --main-background: #F5F5F5;
+    --footer-background: #2F303A;
+    }
