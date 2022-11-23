@@ -1,15 +1,17 @@
 :root{
     --header-background: #FFFFFF;
     --body-background: #F5F5F5;
-    --footer-background: #2F303A;
-    --list-text-color:#2196F3;
-    }
-   .header {
+    --footer-background-color: #2F303A;
+   }
+   header {
     background:var(--header-background);
    }
- .body{
+    body{
     background: var(--body-background);
- }
-.footer{
-    background:var(--footer-background)
-}
+    font-family:'Roboto';
+    color: #212121;
+    }
+   footer{
+    background:var(--footer-background-color)
+   }
+   
