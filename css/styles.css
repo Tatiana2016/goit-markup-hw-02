@@ -1,86 +1,97 @@
 :root{
---header-background: #FFFFFF;
---body-background: #F5F5F5;
---footer-background-color: #2F303A;
---color-primary:#212121;
+ --header-background: #FFFFFF;
+ --body-background: #F5F5F5;
+ --footer-background: #2F303A;
+
+ --color-primary:#212121;
+ --hover-color:#2196F3;
 }
 body {
-background: var(--body-background);
-font-family: 'Roboto',sans-serif;
-color: var(--color-primary);
+ background: var(--body-background);
+ font-family: 'Roboto',sans-serif;
+ color: var(--color-primary);
 }
 header {
-background:var(--header-background);
+ background:var(--header-background);
 }
   
 footer{
-background:var(--footer-background-color);
+ background:var(--footer-background);
 }
       
 p {
-font-weight: 400;
-font-size: 16px;
-line-height: 1.88;
-color: #757575;
+ font-size: 16px;
+ line-height: 1.88;
+ color: #757575;
+}
+span{
+  color: var(--hover-color);
 }
 .button {
-font-family: 'Roboto', sans-serif;
-background: #F5F4FA;
-border-radius: 4px;
-font-weight: 500;
-font-size: 16px;
-line-height: 1.63;
-color: #212121;
+ font-family: 'Roboto', sans-serif;
+ background: #F5F4FA;
+ border-radius: 4px;
+ font-weight: 500;
+ font-size: 16px;
+ line-height: 1.63;
+ color: #212121;
+cursor: pointer;
 }
   
 .button:hover {
-background: #2196F3;
-color: #FFFFFF;
+ background: var(--hover-color);
+ color: #FFFFFF;
 }
 .logo{
-font-family: 'Raleway';
-font-size: 26px;
-line-height: 1.19;
-color: #000000;
+ font-family: 'Raleway';
+ font-size: 26px;
+ line-height: 1.19;
+ color: #000000;
 }
 .list{
-font-weight: 500;
-font-size: 14px;
-line-height: 1.14;
-color: var(--color-primary);
+ font-weight: 500;
+ font-size: 14px;
+ line-height: 1.14;
+ color: var(--color-primary);
 }
 .list:hover{
-color: #2196F3;
+ color: var(--hover-color);
 }
 .title-hero{
-font-family: 'Roboto', sans-serif;
-font-weight: 700;
-font-size: 18px;
-line-height: 2;
-color: var(--color-primary);
+ font-family: 'Roboto', sans-serif;
+ font-weight: 700;
+ font-size: 18px;
+ line-height: 2;
+ color: var(--color-primary);
 }
 .item{
-font-weight: 500;
-font-size: 14px;
-line-height: 1.14;
-color: #2196F3;
+ font-weight: 500;
+ font-size: 14px;
+ line-height: 1.14;
+ color:var(--hover-color);
 }
 .phone{
-font-weight: 500;
-font-size: 14px;
-line-height: 1.14;
-color: #757575;
+ font-weight: 500;
+ font-size: 14px;
+ line-height: 1.14;
+ color: #757575;
 }
     
 .text{
-font-weight: 400;
-font-size: 14px;
-line-height: 1.71;
-color: #FFFFFF;
+ font-size: 14px;
+ line-height: 1.71;
+ color: #FFFFFF;
 }
 .search{
-font-weight: 400;
-font-size: 14px;
-line-height: 1.71;
-color: rgba(255, 255, 255, 0.6);
+  font-size: 14px;
+ line-height: 1.71;
+ color: rgba(255, 255, 255, 0.6);
+}
+.footer-logo{
+ font-family: 'Raleway';
+ font-style: normal;
+ font-weight: 700;
+ font-size: 26px;
+ line-height: 1.19;
+ color: #FFFFFF;
 }
